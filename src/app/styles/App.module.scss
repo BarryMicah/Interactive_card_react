@@ -1,0 +1,8 @@
+@use "./Mixins.scss" as mixin;
+
+@include mixin.globalStyle;
+@include mixin.sectionOneStyle;
+@include mixin.sectionTwoStyle;
+@include mixin.sectionOneConfirmStyle;
+
+

@@ -1,0 +1,48 @@
+{
+    "sectionOneComponent": {
+        "card": [
+            {
+                "name": "bg-card-front.png"
+            },
+            {
+                "name": "bg-card-back.png"
+            }
+        ]
+    },
+    "sectionTwoComponent": {
+        "label": {
+            "name": "card holder name",
+            "number": "card number",
+            "exp_date": "exp.date",
+            "date": "(mm/yy)",
+            "cvc": "cvc"
+        },
+        "placeholder": {
+            "name": "e.g Jane Appleseed",
+            "number": "e.g. 1234 5678 9123 0000",
+            "exp_date": "MM",
+            "date": "YY",
+            "cvc": "e.g 123"
+        },
+        "form": {
+            "limit": {
+                "thirty": "30",
+                "sixteen": "16",
+                "two": "2",
+                "three": "3"
+            },
+            "error": {
+                "firstName": "Please check the First Name",
+                "number": "Please check Number",
+                "expDate": "Please check Date",
+                "date": "Please check Exp Date",
+                "cvc": "Please check cvc"
+            }
+        },
+        "button": "Confirm"
+    },
+    "sectionOneComponentConfirm": {
+        "text": "Transaction Confirmed",
+        "back": "Back to home"
+    }
+}
