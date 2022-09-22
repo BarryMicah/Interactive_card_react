@@ -10,7 +10,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage/>}></Route>
         <Route element={<ProtectedRoutes/>}>
-          <Route path="/confirm" element={<ConfirmPage/>} exact></Route>
+          <Route path="/confirm" element={<ConfirmPage/>}></Route>
         </Route>
       </Routes>
     </div>
