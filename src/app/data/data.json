@@ -26,7 +26,7 @@
         },
         "form": {
             "limit": {
-                "thirty": "30",
+                "thirty": "15",
                 "sixteen": "16",
                 "two": "2",
                 "three": "3"
