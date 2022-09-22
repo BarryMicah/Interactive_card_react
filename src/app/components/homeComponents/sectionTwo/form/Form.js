@@ -25,7 +25,7 @@ const Form = () => {
                 <div className={Styles.form}>
                     <div className={`${Styles.form_group} ${Styles.dFlex}`}>
                         <label htmlFor="name" className={Styles.uppercase}>{dataSectionTwo.label.name}</label>
-                        <input type="text" maxLength={dataSectionTwo.form.limit.thirty} name="name" {...register("firstName", { required: true, maxLength: 30})} placeholder={dataSectionTwo.placeholder.name}/>
+                        <input type="text" maxLength={dataSectionTwo.form.limit.thirty} name="name" {...register("firstName", { required: true, maxLength: 15})} placeholder={dataSectionTwo.placeholder.name}/>
                         {errors.firstName && <p className={Styles.error}>{dataSectionTwo.form.error.firstName}</p>}
                     </div>
                     <div className={`${Styles.form_group} ${Styles.dFlex}`}>
